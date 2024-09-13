@@ -8,7 +8,7 @@ int main() {
     scanf("%d", &num);
 
 
-    printf("%s\n", num > 0 ? "Numero positivo" : "Numero negativo");
+    printf("%s\n", num % 2 == 0 ? "Numero par" : "Numero impar");
 
     return 0;
 }
